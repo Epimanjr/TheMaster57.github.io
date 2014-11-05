@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- Caractéristiques générales de la page html -->
+        <title>Jeu de voitures</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css " />
+    </head>
+
+    <body>
+        <!-- En-tête de la page -->
+        <div>
+            <h1 id="entete">Jeu de voitures</h1>
+        </div>
+        
+        <!-- La zone de jeu -->
+        <div id="zonedejeu">
+            
+            <!-- Insertion de l'image (voiture rouge) -->
+            <img src="images/red-car.png" alt="voiture rouge" id="player"/>
+            
+            <!-- Le compteur de points -->
+            <p id="ppoints">Compteur de points : 0</p>
+        </div>
+        
+        <!-- Insertion du jQuery et de notre code JavaScript -->
+        <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="voiture.js"></script>
+    </body>
+</html>

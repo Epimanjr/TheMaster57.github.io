@@ -1,0 +1,70 @@
+/* 
+    Created on : 6 oct. 2014, 14:09:09
+    Author     : Maxime BLAISE
+*/
+
+/* En-tête de la pace */
+#entete {
+    /* Taille de police de 100px */
+    font-size: 100px;
+    
+    /* Inscrit au centre */
+    text-align: center;
+    
+    /* Marge de 10px en-dessous */
+    margin-bottom: 10px;
+}
+
+/* La zone de jeu (la zone grise) */
+#zonedejeu {
+    /* Doit faire 800px sur 800px */
+    width: 800px;
+    height: 800px;
+    
+    /* et avoir un fond gris */
+    background-color: gray;
+    
+    /* au centre de la page */
+    margin: auto;
+}
+
+/* Notre voiture rouge */
+#player {
+    /* Largeur de 50px */
+    width: 50px;
+    
+    position: absolute;
+}
+
+/* Toutes les voitures bleues */
+.bluecar {
+    /* Largeur de 50px */
+    width: 50px;
+    
+    /* Pour la position */
+    position: absolute;
+}
+
+/* Le message game over */
+#gameover {
+    /* Positionnement */
+    padding-top: 300px;
+    margin-left: 80px;
+
+    /* Taille et police */
+    font-size: 100px;
+    color: red;
+}
+
+/* Compteur de points */
+#ppoints {
+    /* Positionnement */
+    position: absolute;
+    padding-top: 740px;
+    padding-left: 520px;
+
+    /* Police et couleurs */
+    font-weight: bold;
+    font-size: 26px;
+    color: yellow;
+}
